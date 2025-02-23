@@ -1,33 +1,24 @@
-"use client";
+"use client"
+
+import { Button } from "./ui/button";
+
 
 const Hero = () => {
-  return (
-    <section className="flex items-center min-h-screen px-8 md:px-72">
-      <div className="max-w-2xl text-[#b4cc9a]">
-        <p className="text-lg">Hi, my name is</p>
-        
-        {/* Name with Gradient */}
-        <h1 className="text-5xl font-bold bg-gradient-to-r from-[#29351C] to-[#87BA4B] bg-clip-text text-transparent">
-          Pratham Koranne.
-        </h1>
-
-        <h2 className="text-3xl font-semibold mt-4 text-[#b4cc9a]">
-          I build things for the web.
-        </h2>
-
-        <p className="mt-4 leading-relaxed text-[#b4cc9a]">
-          I'm a full-stack developer from India. I specialize in turning ideas into fully
-          functional web applications. Whether you’re building a product from the ground up or
-          improving an existing one, I can help bring your vision to life with clean, efficient code.
+    return (
+      <section className="space-y-4 mb-24 min-h-screen items-center flex flex-col justify-center">
+        <p className="text-sm">Hi, my name is</p>
+        <h1 className="text-4xl md:text-5xl font-medium text-[#4A9F5A]">pratham koranne.</h1>
+        <h2 className="text-2xl md:text-3xl">I build things for the web.</h2>
+        <p className="max-w-2xl text-gray-400">
+          As a full-stack developer from India, I specialize in turning ideas into fully functional products. Whether
+          you need help building a new product from the ground up or improving an existing one, I can help bring your
+          vision to life with clean, efficient code.
         </p>
-
-        {/* Resume Button */}
-        <button className="mt-6 px-6 py-3 font-medium rounded-md transition bg-[#87BA4B] text-black hover:bg-[#6a9e3b]">
-          Resume
-        </button>
-      </div>
-    </section>
-  );
-};
-
-export default Hero;
+        <Button className="bg-[#4A9F5A] hover:bg-[#4A9F5A]/90 text-black font-medium px-8 rounded-full">Resume</Button>
+      </section>
+      
+    );
+  };
+  
+  export default Hero;
+  
