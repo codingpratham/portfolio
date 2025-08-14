@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useEffect, useState } from 'react';
 import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react';
 
@@ -11,7 +10,6 @@ const Hero: React.FC = () => {
 
   useEffect(() => {
     const handleType = () => {
-      const i = loopNum % 1;
       const currentText = fullText;
 
       setDisplayText(
@@ -32,7 +30,7 @@ const Hero: React.FC = () => {
 
     const timer = setTimeout(handleType, typingSpeed);
     return () => clearTimeout(timer);
-  }, [displayText, isDeleting, loopNum, typingSpeed]);
+  }, [displayText, fullText, isDeleting, loopNum, typingSpeed]);
 
   const scrollToAbout = () => {
     const element = document.getElementById('about');
