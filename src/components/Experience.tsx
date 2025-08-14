@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+
 import React from 'react';
 import { Briefcase, Calendar, MapPin } from 'lucide-react';
 
@@ -51,7 +51,7 @@ const Experience: React.FC = () => {
             <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-500 to-purple-500"></div>
 
             <div className="space-y-12">
-              {experiences.map((experience, index) => (
+              {experiences.map((experience) => (
                 <div key={experience.company} className="relative">
                   {/* Timeline dot */}
                   <div className="absolute left-6 w-4 h-4 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full border-4 border-gray-900"></div>
