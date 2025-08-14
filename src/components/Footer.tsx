@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
           {/* Brand Section */}
           <div className="space-y-4">
             <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-              Alex Johnson
+              Pratham Koranne
             </div>
             <p className="text-gray-400 leading-relaxed">
               Full Stack Developer passionate about creating exceptional digital experiences 
