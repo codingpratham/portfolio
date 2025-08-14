@@ -50,7 +50,7 @@ const About: React.FC = () => {
 
             <div className="grid grid-cols-2 gap-4 text-center">
               <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700/50">
-                <div className="text-3xl font-bold text-blue-400 mb-2">50+</div>
+                <div className="text-3xl font-bold text-blue-400 mb-2">10+</div>
                 <div className="text-gray-400">Projects Completed</div>
               </div>
               <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700/50">
