@@ -5,7 +5,7 @@ import { Briefcase, Calendar, MapPin } from 'lucide-react';
 const Experience: React.FC = () => {
   const experiences = [
     {
-      company: 'AllSoft Pvt. Ltd.',
+      company: 'GoSoft Pvt. Ltd.',
       position: 'Trainee',
       duration: 'Aug-2022 - Sep-2023',
       location: 'Ujjain(M.P), India',
