@@ -20,7 +20,7 @@ const Experience: React.FC = () => {
     {
   company: 'Freelance',
   position: 'Full Stack Developer',
-  duration: 'Dec-2022 - present',
+  duration: 'Dec-2023 - present',
   location: 'Remote',
   description: 'Designed and developed responsive, visually appealing websites for local vendors and small businesses, helping them establish a professional online presence.',
   achievements: [
